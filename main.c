@@ -52,10 +52,13 @@ else if(op=='%')
   else
   {
     result=num1%num2;
+    
   }
 }
 else
 {
   printf("Invalid operator\n");
-  return 1;}
+  return 1;
   }
+  printf("result=%f",result);
+ }
